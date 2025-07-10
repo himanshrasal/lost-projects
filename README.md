@@ -30,32 +30,6 @@ A collection of my past projects where the original source code is lost, but fun
 >
 > ---  
 >
-> ### ZELNA – Handheld AI Assistant  
-> An offline AI assistant with voice capabilities and a touchscreen interface, running locally via a Raspberry Pi Zero 2 W.  
-> 
-> - Built with PyQt5 (GUI), Flask (backend), Vosk (STT), pyttsx3 (TTS), and Ollama (LLM).  
-> - Uses a custom PCB for audio filtering and charging logic.  
-> - Entirely offline — no internet or cloud dependencies.  
-> 
-> [![ZELNAPreview](VR/ZELNA/zelna_preview.jpg)](VR/ZELNA/zelna_demo.mp4)  
->
-> #### Internal Build  
->
-> - Raspberry Pi Zero 2 W  
-> - 3.5-inch LCD display  
-> - USB Microphone  
-> - 2300mAh Lithium Battery  
-> - Boost converter and TP4056 charging module  
-> - PAM8403 audio amplifier  
-> - Custom modules:  
->   - Low-pass RC filter for PWM audio  
->   - Charge detection using LM393 comparator IC  
->
-> ![Parts](VR/ZELNA/zelna_parts.jpg)  
-> ![Assembled](VR/ZELNA/zelna_assembled.jpg)  
->
-> ---  
->
 > ### Tools and Technologies Used  
 >
 > - Unity (HDRP / URP)  
@@ -63,23 +37,18 @@ A collection of my past projects where the original source code is lost, but fun
 > - Unity XR Toolkit (hand tracking & VR input)  
 > - Blender (3D modeling)  
 > - Poly Haven textures (CC0)  
-> - Python (PyQt5, Flask, Vosk, pyttsx3)  
-> - Raspberry Pi (embedded hardware)  
->
-> ---  
->
-> ### Why Archive These?  
->
-> Even without the source code, these projects:  
-> - Demonstrate technical implementation and creativity  
-> - Serve as a base for future rebuilds or case studies  
-> - Showcase working demos and functional proof of concepts  
+
+---  
+
+## Why Archive These?
+Even without the source code, these projects:  
+- Demonstrate technical implementation and creativity  
+- Serve as a base for future rebuilds or case studies  
+- Showcase working demos and functional proof of concepts  
 
 ---
 
 ## Planned Additions
-
 - Mobile and AR prototypes  
-- Audio-reactive visualizers  
-- More VR experiments  
+- More VR experiments
 - Robotics and physical computing demos  
